@@ -1,0 +1,26 @@
+[package]
+name = "wasm2rdf"
+version = "0.1.0"
+edition = "2024"
+authors = ["auto-generated"]
+description = "WASM bridge for xml2rdf: stream-to-stream XML->RDF using wasm-bindgen"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.106"
+js-sys = "0.3"
+xml2rdf = { path = "xml2rdf" }
+json2rdf = { path = "json2rdf" }
+tempfile = "3.0"
+uuid = { version = "1.4", features = ["v4", "js"] }
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+getrandom = { version = "0.2", features = ["js"] }
+
+[features]
+default = []
+
+[dev-dependencies]
+tempfile = "3.0"

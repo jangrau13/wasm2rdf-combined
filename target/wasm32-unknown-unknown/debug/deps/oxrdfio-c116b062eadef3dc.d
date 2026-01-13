@@ -1,0 +1,11 @@
+/Users/graj/Documents/projects/wiser/combined/wasm2rdf/target/wasm32-unknown-unknown/debug/deps/oxrdfio-c116b062eadef3dc.d: /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/lib.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/document.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/error.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/format.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/parser.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/serializer.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/../README.md
+
+/Users/graj/Documents/projects/wiser/combined/wasm2rdf/target/wasm32-unknown-unknown/debug/deps/liboxrdfio-c116b062eadef3dc.rmeta: /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/lib.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/document.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/error.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/format.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/parser.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/serializer.rs /Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/../README.md
+
+/Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/lib.rs:
+/Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/document.rs:
+/Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/error.rs:
+/Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/format.rs:
+/Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/parser.rs:
+/Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/serializer.rs:
+/Users/graj/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.1.8/src/../README.md:

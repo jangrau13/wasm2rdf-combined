@@ -1,0 +1,14 @@
+    Blocking waiting for file lock on package cache
+error: failed to get `json2rdf` as a dependency of package `wasm2rdf v0.1.0 (/Users/graj/Documents/projects/wiser/combined/wasm2rdf)`
+
+Caused by:
+  failed to load source for dependency `json2rdf`
+
+Caused by:
+  Unable to update /Users/graj/Documents/projects/wiser/combined/json2rdf
+
+Caused by:
+  failed to read `/Users/graj/Documents/projects/wiser/combined/json2rdf/Cargo.toml`
+
+Caused by:
+  No such file or directory (os error 2)
