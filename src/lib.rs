@@ -5,7 +5,7 @@ use xml2rdf::writer::FileWriter as Xml2RdfFileWriter;
 use json2rdf;
 use json2rdf::writer::FileWriter as Json2RdfFileWriter;
 
-fn xml_to_ttl(xml: &str, base: &str) -> Result<String, Box<dyn std::error::Error>> {
+pub fn xml_to_ttl(xml: &str, base: &str) -> Result<String, Box<dyn std::error::Error>> {
     // Use in-memory reader and writer so this works in wasm
     let data = xml.as_bytes().to_vec();
     let cursor = Cursor::new(data);
@@ -19,7 +19,7 @@ fn xml_to_ttl(xml: &str, base: &str) -> Result<String, Box<dyn std::error::Error
     Ok(s)
 }
 
-fn json_to_ttl(json: &str, base: &str) -> Result<String, Box<dyn std::error::Error>> {
+pub fn json_to_ttl(json: &str, base: &str) -> Result<String, Box<dyn std::error::Error>> {
     // Use in-memory reader and writer so this works in wasm
     let data = json.as_bytes();
     let cursor = Cursor::new(data);
@@ -32,7 +32,7 @@ fn json_to_ttl(json: &str, base: &str) -> Result<String, Box<dyn std::error::Err
     Ok(s)
 }
 
-fn apply_replacements(
+pub fn apply_replacements(
     ttl: String,
     new_base_uri: &str,
     xml_namespace: Option<&str>,
