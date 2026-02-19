@@ -1,6 +1,6 @@
 [submodule "json2rdf"]
 	path = json2rdf
-	url = https://github.com/jangrau13/json2rdf.git
+	url = https://github.com/jangrau13/json2rdf-combined.git
 [submodule "xml2rdf"]
 	path = xml2rdf
-	url = https://github.com/jangrau13/xml2rdf
+	url = https://github.com/jangrau13/xml2rdf-combined.git
